@@ -17,14 +17,8 @@ A global variable (`Object`), called `IE`, is available (also by `window.IE`).
 
 This object has 3 properties:
 
- - isTheBrowser
- - actualVersion
- - currentVersion
-
-`isTheBrowser` is a boolean, telling whether the current browser is IE or not.
-
-`actualVersion` is a string, telling the true version of the browser. For example, if IE 10 is being used, but the browser/document mode (changed in Developer Tools) is for IE 9, this will still return "10".
-
-`currentVersion` is a string, telling the current acting version of the browser. In the previous example, this will return "9".
+ - `isTheBrowser` is a boolean, telling whether the current browser is IE or not.
+ - `actualVersion` is a string, telling the true version of the browser. For example, if IE 10 is being used, but the browser/document mode (changed in Developer Tools) is for IE 9, this will still return "10".
+ - `currentVersion` is a string, telling the current acting version of the browser. In the previous example, this will return "9".
 
 [Here](http://jsfiddle.net/8tKGF/6/) is a jsFiddle to demonstrate its use.
