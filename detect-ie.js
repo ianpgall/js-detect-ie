@@ -17,7 +17,7 @@ var IE = (function () {
     if (typeof jscriptVersion !== "undefined") {
         isTheBrowser = true;
         actualVersion = jscriptMap[jscriptVersion];
-        currentVersion = document.documentMode;
+        currentVersion = +document.documentMode;
     }
     
     return {
