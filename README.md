@@ -26,3 +26,5 @@ This object has 3 properties:
 `actualVersion` is a string, telling the true version of the browser. For example, if IE 10 is being used, but the browser/document mode (changed in Developer Tools) is for IE 9, this will still return "10".
 
 `currentVersion` is a string, telling the current acting version of the browser. In the previous example, this will return "9".
+
+[Here](http://jsfiddle.net/8tKGF/6/) is a jsFiddle to demonstrate its use.
