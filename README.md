@@ -1,7 +1,7 @@
 detect-ie
 =========
 
-A tiny JavaScript library that helps to detect Internet Explorer, its current version, and its native version.
+Helps to detect Internet Explorer, its current version, and its native version.
 
 Too often do people use the `userAgent` of the browser to detect (which can be [spoofed quite easily](http://www.howtogeek.com/113439/how-to-change-your-browsers-user-agent-without-installing-any-extensions/)), or conditional comments. Neither are reliable.
 
