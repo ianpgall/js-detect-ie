@@ -1,5 +1,5 @@
 var IE = (function () {
-    "use strict";
+	"use strict";
 
 	var ret, isTheBrowser,
 		actualVersion, currentVersion,
