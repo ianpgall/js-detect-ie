@@ -1,5 +1,5 @@
-DetectIE
-========
+detect-ie
+=========
 
 A tiny JavaScript library that helps to detect Internet Explorer, its current version, and its native version.
 
@@ -9,16 +9,13 @@ Conditional Comments are [no longer supported in IE 10](http://msdn.microsoft.co
 
 [Conditional Compilation](http://msdn.microsoft.com/en-us/library/7kx09ct1\(v%3Dvs.80\).aspx), a different feature, also only supported in IE, allows you to find the version of the IE browser more correctly. ( another [reference](http://www.javascriptkit.com/javatutors/conditionalcompile.shtml) )
 
+Use
+---
 
-Use of DetectIE
-===============
-
-A global variable (`Object`), called `IE`, is available (also by `window.IE`).
+A variable (`Object`), called `IE`, is created.
 
 This object has 3 properties:
 
- - `isTheBrowser` is a boolean, telling whether the current browser is IE or not.
- - `actualVersion` is a string, telling the true version of the browser. For example, if IE 10 is being used, but the browser/document mode (changed in Developer Tools) is for IE 9, this will still return "10".
- - `currentVersion` is a string, telling the current acting version of the browser. In the previous example, this will return "9".
-
-[Here](http://jsfiddle.net/8tKGF/6/) is a jsFiddle to demonstrate its use.
+ - `isTheBrowser`, a **boolean**, telling whether the current browser is IE or not.
+ - `actualVersion`, a **string**, telling the true version of the browser. For example, if IE 10 is being used, but the browser/document mode (changed in Developer Tools) is for IE 9, this will still return "10".
+ - `currentVersion`, a **string**, telling the current acting version of the browser. In the previous example, this will return "9".
